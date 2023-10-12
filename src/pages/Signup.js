@@ -12,7 +12,7 @@ function Signup() {
      
     let form = new FormData(e.currentTarget)
 
-    await axios.post("http://localhost:8000/signup/", form)
+    await axios.post("https://yusuf098765.pythonanywhere.com/signup/", form)
     .then((res) => {
       alert("account created successfully")
       
